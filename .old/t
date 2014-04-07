@@ -1,0 +1,16 @@
+#! /usr/bin/env python3
+import sys
+
+num = int( sys.argv[1] )
+
+if num % 2 == 0 or num % 3 == 0 or num % 5 == 0:
+	print(True)
+else:
+	print(False)
+
+if num % 2 == 0:
+	print(2)
+elif num % 3 == 0:
+	print(3)
+elif num % 5 == 0:
+	print(5)	
